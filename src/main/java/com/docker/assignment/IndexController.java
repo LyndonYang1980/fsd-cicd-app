@@ -13,7 +13,7 @@ public class IndexController {
     private final Logger logger = Logger.getLogger(this.getClass().getName());
     
     @Autowired
-    PostRepository postRepository;
+    PostRepository postRepository; 
 
     @SuppressWarnings("unchecked")
 	@GetMapping("/")
