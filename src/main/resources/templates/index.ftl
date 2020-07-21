@@ -5,7 +5,7 @@
     <title>Docker with Spring Boot, MySQL, NGINX</title>
 </head>
 <body>
-    <h1>Docker with Spring Boot, MySQL, NGINX</h1>
+    <h1>Docker with Spring Boot, MySQL, NGINX Test</h1>
     <p>${status}</p>
 </body>
 </html>
