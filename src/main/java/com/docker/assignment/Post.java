@@ -14,7 +14,7 @@ import javax.persistence.Table;
 public class Post {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="POST_ID")
 	Integer postId;
 	
