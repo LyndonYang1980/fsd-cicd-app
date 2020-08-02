@@ -7,5 +7,6 @@
 <body>
     <h1>Docker with Spring Boot, MySQL, NGINX Test</h1>
     <p>${status}</p>
+    <p>${newfeature}</p>
 </body>
 </html>
