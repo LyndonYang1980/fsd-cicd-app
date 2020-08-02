@@ -20,8 +20,8 @@ public class IndexController {
     public String index(Model model) {
     	if(postRepository.save( new Post(1, "This is first POST!!!!",  new Date())) != null) {
     		model.addAttribute("status", "Value inserted in MySQL Database");
-//    		postRepository.save( new Post(1, "This is first POST!!!!",  new Date()));
-//    		model.addAttribute("newfeature", "I am running from Docker");
+    		postRepository.save( new Post(1, "This is first POST!!!!",  new Date()));
+    		model.addAttribute("newfeature", "I am running from Docker");
     	}
     	 	
         return "index";
